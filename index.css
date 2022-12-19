@@ -1,0 +1,43 @@
+body {
+    margin: auto;
+    font-family: Inconsolata;
+    align-items: center;
+
+}
+
+h3 {
+    color: white;
+    font-weight: bold;
+    font-size: 36px;
+}
+.container {
+    display: flex;
+    justify-content: space-around;
+    background-color: darkcyan;
+}
+
+#score-Home, #score-Guest {
+    background-color: black;
+    color: red;
+    font-weight: bold;
+    font-family: Lora;
+    font-size: 50px;
+    text-align: center;
+    border-radius: 5px;
+
+}
+
+button {
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+    border: 1px solid;
+    margin: 5px;
+    color: white;
+}
+#newgame {
+
+}
